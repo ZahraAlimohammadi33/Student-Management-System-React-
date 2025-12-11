@@ -52,7 +52,6 @@ const SignIn = (props)=>{
 
     return (
         <>
-        <img src={logo}/>
         <input type="text" placeholder="username" ref={usernameRef}/>
         <p></p>
          <input type="text" placeholder="password" ref={passwordRef}/>
@@ -65,5 +64,6 @@ const SignIn = (props)=>{
          </>
     )
 }
+
 
 export default SignIn;
