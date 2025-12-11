@@ -1,12 +1,39 @@
-# React + Vite
+# Student Management System (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Student Management System** built with **React** that allows managing student data efficiently. Users can add, edit, and delete students, and the app includes authentication with CAPTCHA for security.
 
-Currently, two official plugins are available:
+## Live Demo
+https://student-management-system-react-si5.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Add Student**: Add new students with name, class, phone number, and email.
+- **Edit Student**: Modify existing student information.
+- **Delete Student**: Remove students from the list.
+- **Authentication**: Login with username and password, including a CAPTCHA for verification.
+- **Context API**: Manage authentication state globally.
+- **Reusable Components**: Buttons, Modals, and Backdrops for consistent UI.
+- **Responsive Design**: Works well on both desktop and mobile.
 
-## Expanding the ESLint configuration
+## Tech Stack
+- **Frontend**: React (Functional Components, Hooks, Context API)
+- **Routing**: React Router
+- **HTTP Requests**: Axios
+- **Styling**: CSS
+- **Backend**: MockAPI for data persistence
+- **Deployment**: Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/USERNAME/REPO_NAME.git
+cd REPO_NAME
+```
+2. **Install dependencies**
+```bash
+npm install
+```
+3. **Start the development server**
+```bash
+npm start
+```
