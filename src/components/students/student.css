@@ -55,7 +55,7 @@ span{
     direction: rtl;
 }
 
-input[type=text]]{
+input[type=text]{
     direction: rtl;
     font-family: Vazir, sans-serif;
 }
@@ -80,4 +80,5 @@ input[type=number] {
     }
 
 }
+
 
