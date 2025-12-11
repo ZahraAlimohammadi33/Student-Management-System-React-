@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-controls {
+  margin-bottom: 20px;
+  width: 800px; 
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-controls input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  margin-top: 0; 
+  box-sizing: border-box; 
+}
+
