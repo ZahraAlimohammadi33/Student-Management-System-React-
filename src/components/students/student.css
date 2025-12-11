@@ -52,11 +52,12 @@ span{
 .search-bar{
     width: 450px;
     margin-top: 70px;
+    direction: rtl;
 }
 
 input[type=text]]{
     direction: rtl;
-    
+    font-family: Vazir, sans-serif;
 }
 
 input[type=number],input[type=email]{
@@ -79,3 +80,4 @@ input[type=number] {
     }
 
 }
+
