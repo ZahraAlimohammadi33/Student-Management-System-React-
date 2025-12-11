@@ -54,9 +54,13 @@ span{
     margin-top: 70px;
 }
 
-input[type=number],input[type=email]{
-    direction: ltr;
+input[type=text]]{
+    direction: rtl;
     
+}
+
+input[type=number],input[type=email]{
+    direction: ltr;  
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -73,4 +77,5 @@ input[type=number] {
     .students{
         width: 450px;
     }
+
 }
