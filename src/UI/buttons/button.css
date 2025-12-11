@@ -4,6 +4,7 @@
   border-radius: 8px;
   border: none;
   color: white;
+  font-family: Vazir, sans-serif;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -50,4 +51,5 @@
 .login:hover {
   background-color: #0891b2;
   transform: translateY(-2px);
+
 }
