@@ -2,8 +2,8 @@ import React from "react";
 import Logo from "../Toolbar/logo";
 import "./sideDrawer.css";
 import MenuItems from "../MenuItems";
-import BackDrop from "../../../../../UI/backDrop/backDrop";
-import Button from "../../../../../UI/buttons/button";
+import BackDrop from "../../../../UI/backDrop/backDrop";
+import Button from "../../../../UI/buttons/button";
 
 const SlideDrawer = (props) => {
   const classes = ["slideDrawer"];
