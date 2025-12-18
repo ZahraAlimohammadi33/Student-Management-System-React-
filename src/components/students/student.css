@@ -54,6 +54,12 @@ span{
     margin-top: 70px;
 }
 
+
+input[type=text]{
+    font-family: Vazir, sans-serif;
+    direction: rtl;
+}
+
 input[type=number],input[type=email]{
     direction: ltr;
     
