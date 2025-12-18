@@ -56,13 +56,11 @@ span{
 
 
 input[type=text]{
-    font-family: Vazir, sans-serif;
     direction: rtl;
 }
 
 input[type=number],input[type=email]{
     direction: ltr;
-    
 }
 
 input[type=number]::-webkit-inner-spin-button, 
