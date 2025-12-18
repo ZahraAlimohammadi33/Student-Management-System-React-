@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 const AddStudent = React.lazy(() => import("./pages/AddStudent"));
 import EditStudent from "./pages/EditStudent";
-import NotFound from "./pages/NOtFound";
+import NotFound from "./pages/NotFound";
 import { AuthContextProvider } from "./context/authContext";
 import { StudentProvider } from "./context/StudentsContext";
 function App() {
