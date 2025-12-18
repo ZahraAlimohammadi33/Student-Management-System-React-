@@ -1,0 +1,43 @@
+input{
+    width: 95%;
+    height: 45px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px auto;
+    direction: ltr;
+}
+
+.captcha-view{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 95%;
+    
+}
+
+.captcha-view input{
+    width: 70%;
+}
+
+.captcha-view img{
+    width: 42px;
+    height: 42px;
+    height: 22px;
+}
+
+.captcha-view img{
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+    direction: rtl;
+}
