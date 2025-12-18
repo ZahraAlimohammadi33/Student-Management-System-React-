@@ -3,11 +3,11 @@ import "./Toolbar.css";
 import "./../MenuItems";
 import Logo from "./logo";
 import MenuItems from "./../MenuItems";
-import Button from "../../../../../UI/buttons/button";
-import Modal from "../../../../../UI/modal/modal";
-import SignIn from "../../../../../UI/user/signIn";
-import SlideDrawer from "../sideDrawer/saideDrawer";
-import { AuthContext } from "../../../../../context/authContext";
+import Button from "../../../../UI/buttons/button";
+import Modal from "../../../../UI/modal/modal";
+import SignIn from "../../../../UI/user/signIn";
+import SlideDrawer from "../sideDrawer/saideDrawer"
+import { AuthContext } from "../../../../context/authContext";
 
 const Toolbar = () => {
   const [showModal, setShowModal] = useState(false);
