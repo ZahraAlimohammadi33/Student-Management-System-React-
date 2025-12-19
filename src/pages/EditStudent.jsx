@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import Button from "../UI/buttons/button";
 import "../components/students/student.css";
-import React, { useEffect, useRef, useState , useContext} from "react";
+import React, { useEffect, useRef, useState, useContext } from "react";
 import { AuthContext } from "../context/authContext";
 import axios from "axios";
 
@@ -43,31 +43,45 @@ const EditStudent = () => {
       });
   };
   return (
-      <ProtectedRoute authenticated={authenticated}>
-         !studentData ? (
-    <p>در حال بارگذاری اطلاعات دانش‌آموز...</p>
-  ) : (
-    <div className="students">
-      <h2>ویرایش دانش آموز</h2>
+    <ProtectedRoute authenticated={authenticated}>
+      <>
+        {!studentData ? (
+          <p>در حال بارگذاری اطلاعات دانش‌آموز...</p>
+        ) : (
+          <div className="students">
+            <h2>ویرایش دانش آموز</h2>
 
-      <label>نام و نام خانوادگی</label>
-      <input type="text" defaultValue={studentData.name} ref={nameRef} />
+            <label>نام و نام خانوادگی</label>
+            <input type="text" defaultValue={studentData.name} ref={nameRef} />
 
-      <label>کلاس</label>
-      <input type="text" defaultValue={studentData.classNo} ref={classRef} />
+            <label>کلاس</label>
+            <input
+              type="text"
+              defaultValue={studentData.classNo}
+              ref={classRef}
+            />
 
-      <label>شماره تلفن</label>
-      <input type="number" defaultValue={studentData.phone} ref={phoneRef} />
+            <label>شماره تلفن</label>
+            <input
+              type="number"
+              defaultValue={studentData.phone}
+              ref={phoneRef}
+            />
 
-      <label>ایمیل</label>
-      <input type="email" defaultValue={studentData.email} ref={emailRef} />
+            <label>ایمیل</label>
+            <input
+              type="email"
+              defaultValue={studentData.email}
+              ref={emailRef}
+            />
 
-      <Button type="success" function={EditHandler}>
-        ویرایش اطلاعات
-      </Button>
-    </div>
-  );
-  </ProtectedRoute>
+            <Button type="success" function={EditHandler}>
+              ویرایش اطلاعات
+            </Button>
+          </div>
+        )}
+      </>
+    </ProtectedRoute>
   );
 };
 export default EditStudent;
